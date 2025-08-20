@@ -1,16 +1,25 @@
 <!-- quiz.html -->
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Quiz App</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <main class="container">
     <h1>Quiz</h1>
     <div id="meta">Score: <span id="score">0</span></div>
+
+    <!-- Timed mode options -->
+    <div class="options">
+      <label><input type="checkbox" id="timedMode"> Enable Timed Mode</label>
+    </div>
+    <div id="timer" class="timer"></div>
+    
     <div id="qbox" class="question"></div>
     <div class="actions">
       <button id="startBtn" class="btn">Start</button>
@@ -20,4 +29,5 @@
 
   <script src="script.js" defer></script>
 </body>
+
 </html>

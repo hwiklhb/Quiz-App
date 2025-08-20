@@ -8,3 +8,9 @@ body{font-family:Inter,system-ui,Arial;margin:0;background:#fff}
 .btn.muted{background:#ddd;color:#111}
 .choice{padding:0.5rem;border-radius:6px;border:1px solid #ddd;cursor:pointer;text-align:left}
 .choice.correct{outline:3px solid rgba(51,153,255,0.15)}
+
+.timer {
+  font-weight: bold;
+  margin: 0.5rem 0;
+  color: #d9534f; /* red for urgency */
+}
